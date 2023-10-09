@@ -1,6 +1,6 @@
 ### create 3az-s3gw-vpc
 ```bash
-aws cloudformation create-stack --stack-name vpc-stack --template-body file://3AZ-VPC.yml --capabilities CAPABILITY_IAM
+aws cloudformation create-stack --stack-name vpc-stack --template-body file://vpc.yml --capabilities CAPABILITY_IAM
 ```
 
 ### bastion
