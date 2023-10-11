@@ -1,4 +1,4 @@
-### create 3az-s3gw-vpc
+### create 3az-3tier-vpc
 ```bash
 aws cloudformation create-stack --stack-name vpc-stack --template-body file://vpc.yml --capabilities CAPABILITY_IAM
 ```
