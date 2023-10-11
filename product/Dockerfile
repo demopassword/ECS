@@ -25,4 +25,4 @@ RUN adduser --disabled-password app
 RUN apk add --no-cache gcompat && apk add --no-cache libc6-compat && apk add --no-cache curl && chmod +x ./main && chown app /app
 USER app
 
-#ENTRYPOINT ["./main", "-secretName", "product_secret"]
+#ENTRYPOINT ["./main", "-secretName", "product-secret-key"]
