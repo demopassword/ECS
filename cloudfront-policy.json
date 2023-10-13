@@ -5,13 +5,8 @@
             "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": "cloudfront:CreateInvalidation",
-            "Resource": "arn:aws:cloudfront::532003114460:distribution/E3MGFEATIR4QQG"
-        }
-    ]
-}
-{
-    "Version": "2012-10-17",
-    "Statement": [
+            "Resource": "arn:aws:cloudfront::532003114460:distribution/EX46VUFBQTI6A"
+        },
         {
             "Sid": "VisualEditor1",
             "Effect": "Allow",
